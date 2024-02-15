@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "roboto", sans-serif;
+}
+
+h1 {
+  display: grid;
+  place-content: center;
+  height: 65vh;
+  text-align: center;
+}
+
+body {
+  background-image: url("./img/imgHome.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
